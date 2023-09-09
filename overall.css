@@ -1,0 +1,112 @@
+p{
+    color: #F3EFE9;
+text-align: center;
+/* font-family: Greta Text Pro; */
+font-size: 18px;
+font-style: normal;
+font-weight: 332;
+line-height: 28px; /* 155.556% */
+}
+h5{
+    color: #F3EFE9;
+text-align: center;
+/* font-family: Greta Text Pro; */
+font-size: 17px;
+font-style: normal;
+font-weight: 332;
+line-height: 24px; /* 141.176% */
+}
+a{
+    text-decoration: none;
+}
+h5:hover{
+    color: #D38A54;
+}
+h4{
+    color: #F3EFE9;
+text-align: center;
+/* font-family: Greta Text Pro; */
+font-size: 18px;
+font-style: normal;
+font-weight: 332;
+line-height: 16px; /* 88.889% */
+opacity: 0.5;
+}
+h1{
+    text-align: center;
+font-family: customFont;
+font-size: 104px;
+font-style: normal;
+font-weight: 500;
+line-height: 104px; /* 100% */
+letter-spacing: -1.04px;
+text-transform: uppercase;
+background: linear-gradient(180deg, #D38A54 0%, #D9996B 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+h2{
+    color: #5B3620;
+font-family: customFont;
+font-size: 88px;
+font-style: normal;
+font-weight: 500;
+line-height: 88px; /* 100% */
+letter-spacing: -0.88px;
+margin-top: 5px;
+}
+h3{
+    color: #D89767;
+text-align: center;
+font-family: customFont;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 117.647% */
+letter-spacing: 0.68px;
+text-transform: uppercase;
+}
+.addText{
+    color: #F3EFE9;
+text-align: center;
+/* font-family: Greta Text Pro; */
+font-size: 18px;
+font-style: normal;
+font-weight: 332;
+line-height: 28px; /* 155.556% */
+}
+.helperText{
+    color: #D38A54;
+/* font-family: Greta Text Pro; */
+font-size: 17px;
+font-style: italic;
+font-weight: 332;
+line-height: 28px; /* 164.706% */
+}
+
+
+
+
+
+
+.mainButton{
+    display: flex;
+padding: 10px var(--spacing-l, 16px);
+justify-content: center;
+align-items: center;
+gap: var(--spacing-s, 8px);
+border-radius: 32px;
+background: #D38A54;
+border: none;
+color: #F3EFE9;
+text-align: center;
+font-family: Greta Text Pro;
+font-size: 17px;
+font-style: normal;
+font-weight: 332;
+line-height: 24px; /* 141.176% */
+}
+.mainButton:hover{
+    background: #ba8d6c;
+}

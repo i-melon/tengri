@@ -1,0 +1,48 @@
+@media (max-width:1200px){
+    
+}
+
+@media (max-width:1000px){
+    .menuList{display: none;}
+    .dropdown {display: flex;}
+    .block3Slider{flex-direction: column;}
+    .block3Item{flex-direction: column; align-items: center;}
+    .slider3Info{align-items: center; margin-bottom: 20px;}
+    .ReviewSlider{flex-direction: column; margin-top: 30px;margin-bottom: 60px;}
+    .aboutAvtor{flex-direction: column;}
+    .addBlock5{flex-direction: column; gap: 20px;}
+    .block5content{margin-bottom: 40px;}
+    .block6content{flex-direction: column; gap: 30px; align-items: center; margin-bottom: 40px;}
+    .block6Row{flex-direction: column; gap: 20px;align-items: center;}
+    .block8content{flex-direction: column; gap: 20px;}
+}
+
+@media (max-width:768px){
+    .block1{padding: 10px 30px;}
+    .mainButton{font-size: 14px;}
+    #buy1{display: none;}
+    .block1{align-items: center;}
+    h4{font-size: 14px;}
+    h1{font-size: 62px;line-height: 64px;color: #FFF6ED}
+    .subTitle{font-size: 48px;line-height: 64px;color: #FFF6ED}
+    h3{font-size:20px;line-height: 24px;color: #FFF6ED}
+    .addText{font-size: 16px;}
+    .block2{padding: 10px 30px;}
+    .rowCol2{margin-top: 32px;;flex-direction: column; gap: 25px; align-items: center; margin-bottom: 40px;}
+    h2{font-size: 48px;line-height: 56px;}
+    .block3{padding: 10px 30px;}
+    .block4{padding: 10px 30px;}
+    .head4{flex-direction: column; gap: 20px;}
+    .block5{padding: 10px 30px;}
+    .block6{padding: 10px 30px;}
+    .block7{padding: 10px 30px;}
+    .block7Title{font-size: 36px;margin-top: 64px;line-height: 40px}
+    #block7Text{opacity: 0.5;}
+    #block7button{margin-bottom: 40px;}
+    .block8{padding: 10px 30px;}
+    .lastRow{flex-direction: column; align-self: stretch;}
+}
+
+@media (max-width:480px){
+    
+}
