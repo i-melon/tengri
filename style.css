@@ -11,7 +11,7 @@ body{background: #241813; font-family: mainFont;}
     padding: 0px 120px;
     background-image: linear-gradient(to left, #11de93, #0e7ad6);
     background-image: url("./images/bc1.png");
-    
+    background-size: cover;
 }
 #tengriWoman{
     width: 100%;
@@ -192,6 +192,7 @@ line-height: 28px; /* 164.706% */
     color: #F3EFE9;
 }
 .block3Slider{
+    align-self: stretch;
     display: flex;
     flex-direction: row;
     margin-top: 64px;
@@ -410,7 +411,7 @@ font-weight: 500;
 line-height: 64px; /* 114.286% */
 letter-spacing: -0.56px;
 }
-#block7Text{margin-top: 64px;}
+#block7Text{margin-top: 64px; text-align: center;}
 .block7TitleAdd{color: #D38A54;}
 #block7button{width: fit-content;margin-top: 32px;}
 
@@ -452,4 +453,94 @@ line-height: 28px; /* 186.667% */
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+
+.titleController{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.controller3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+.slider-line{
+    width: 1120px;
+    display: flex;
+    gap: 60px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider3button{
+    display: flex;
+padding: var(--spacing-l, 20px 17px);
+align-items: flex-start;
+gap: var(--spacing-s, 8px);
+border-radius: 36px;
+border: 1px solid #D38A54;
+background: none;
+}
+.slider3button:hover{background: #D38A54;}
+.slider3button2{
+    display: flex;
+padding: var(--spacing-l, 16px);
+align-items: flex-start;
+gap: var(--spacing-s, 8px);
+border-radius: 36px;
+background: #D38A54;
+border: none;
+}
+.slider3button2:hover{background:white;}
+
+
+.titleControllerM{
+    display: none;
+}
+.block3SliderM{
+    display: none;
+    width: 288px;
+}
+.slider3buttonM{
+    display: flex;
+padding: var(--spacing-l, 20px 17px);
+align-items: flex-start;
+gap: var(--spacing-s, 8px);
+border-radius: 36px;
+border: 1px solid #D38A54;
+background: none;
+}
+.slider3buttonM:hover{background: #D38A54;}
+.slider3button2M{
+    display: flex;
+padding: var(--spacing-l, 16px);
+align-items: flex-start;
+gap: var(--spacing-s, 8px);
+border-radius: 36px;
+background: #D38A54;
+border: none;
+}
+.slider3button2M:hover{background:white;}
+.sliderM{
+    width: 100%;
+    overflow: hidden;
+}
+.slider-lineM{
+    width: 288px;
+    display: flex;
+    gap: 60px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.heroImg{
+    width: 288px;
+    border-radius: 15px;
 }

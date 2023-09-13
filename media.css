@@ -5,9 +5,9 @@
 @media (max-width:1000px){
     .menuList{display: none;}
     .dropdown {display: flex;}
-    .block3Slider{flex-direction: column;}
+    .block3Slider{flex-direction: column; display: none;}
     .block3Item{flex-direction: column; align-items: center;}
-    .slider3Info{align-items: center; margin-bottom: 20px;}
+    .slider3Info{align-items: flex-start; margin-bottom: 20px;}
     .ReviewSlider{flex-direction: column; margin-top: 30px;margin-bottom: 60px;}
     .aboutAvtor{flex-direction: column;}
     .addBlock5{flex-direction: column; gap: 20px;}
@@ -15,6 +15,9 @@
     .block6content{flex-direction: column; gap: 30px; align-items: center; margin-bottom: 40px;}
     .block6Row{flex-direction: column; gap: 20px;align-items: center;}
     .block8content{flex-direction: column; gap: 20px;}
+    .titleController{flex-direction: column; gap: 20px; align-items: flex-start; display: none;}
+    .titleControllerM{display: flex; flex-direction: column; gap: 20px;}
+    .block3SliderM{display: flex; margin-top: 64px;}
 }
 
 @media (max-width:768px){
