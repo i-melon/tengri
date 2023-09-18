@@ -2,14 +2,14 @@ let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
 
 document.querySelector('.slider3button2').addEventListener('click', function(){
-    offset = offset+1240;
+    offset = offset+620;
     if (offset>2480){
         offset=0
     }
     sliderLine.style.left = -offset+'px'
 });
 document.querySelector('.slider3button').addEventListener('click', function(){
-    offset = offset-1240;
+    offset = offset-620;
     if (offset<0){
         offset=2480
     }
