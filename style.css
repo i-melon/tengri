@@ -349,10 +349,13 @@ line-height: 32px; /* 100% */
 .block6content{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 64px;
+    gap: 10px;
 }
 .block6Item{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
