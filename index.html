@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Тенгрия – Любимица Богов</title>
     <style>
         @import './style.css';
         @import './overall.css';
@@ -421,10 +421,10 @@
             </div>
             <div class="block6Item">
                 <img src="./images/book.png" alt="book">
-                <div class="item6Name">мягкий переплет</div>
+                <div class="item6Name">Мягкий переплет</div>
                 <div class="item6Format">Издательство LEM </div>
                 <p id="item6Text">116 страниц, мягкий переплет с обложкой.</p>
-                <button class="mainButton" id="blackButton">Купить за 2 500 тг<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <button class="mainButton" id="blackButton" onclick="buySoft()">Купить за 2 500 тг<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                     <path d="M5.91674 14.1665H14.9411C15.7327 14.1665 16.1285 14.1665 16.4511 14.0235C16.7355 13.8974 16.979 13.6942 17.1539 13.437C17.3523 13.1452 17.4231 12.7557 17.5647 11.9769L18.6904 5.78576C18.7395 5.51582 18.764 5.38084 18.7261 5.27545C18.6928 5.18299 18.628 5.10526 18.5429 5.05599C18.446 4.99984 18.3089 4.99984 18.0345 4.99984H4.66674M2.16663 1.6665H3.26363C3.46587 1.6665 3.56699 1.6665 3.64877 1.70344C3.72085 1.736 3.78218 1.78841 3.82558 1.85453C3.87483 1.92955 3.8906 2.02943 3.92214 2.2292L6.24445 16.9371C6.27599 17.1369 6.29176 17.2368 6.341 17.3118C6.38441 17.3779 6.44573 17.4303 6.51781 17.4629C6.59959 17.4998 6.70071 17.4998 6.90296 17.4998H16.3333" stroke="#FFF6ED" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </button>
@@ -434,7 +434,7 @@
                 <div class="item6Name">Твердый переплет</div>
                 <div class="item6Format">Издательство LEM </div>
                 <p id="item6Text">116 страниц, твердый переплет с обложкой.</p>
-                <button class="mainButton" id="blackButton">Купить за 3 000 тг<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <button class="mainButton" id="blackButton" onclick="buyHard()">Купить за 3 000 тг<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                     <path d="M5.91674 14.1665H14.9411C15.7327 14.1665 16.1285 14.1665 16.4511 14.0235C16.7355 13.8974 16.979 13.6942 17.1539 13.437C17.3523 13.1452 17.4231 12.7557 17.5647 11.9769L18.6904 5.78576C18.7395 5.51582 18.764 5.38084 18.7261 5.27545C18.6928 5.18299 18.628 5.10526 18.5429 5.05599C18.446 4.99984 18.3089 4.99984 18.0345 4.99984H4.66674M2.16663 1.6665H3.26363C3.46587 1.6665 3.56699 1.6665 3.64877 1.70344C3.72085 1.736 3.78218 1.78841 3.82558 1.85453C3.87483 1.92955 3.8906 2.02943 3.92214 2.2292L6.24445 16.9371C6.27599 17.1369 6.29176 17.2368 6.341 17.3118C6.38441 17.3779 6.44573 17.4303 6.51781 17.4629C6.59959 17.4998 6.70071 17.4998 6.90296 17.4998H16.3333" stroke="#FFF6ED" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </button>
@@ -444,7 +444,7 @@
                 <div class="item6Name">Электронная версия</div>
                 <div class="item6Format">Формат .pdf </div>
                 <p id="item6Text">132 страницы, в формате дял элект. чтения.</p>
-                <button class="mainButton" id="blackButton">Купить за 2 000 тг<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                <button class="mainButton" id="blackButton" onclick="buyDigital()">Купить за 2 000 тг<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                     <path d="M5.5835 14.1665H14.6078C15.3995 14.1665 15.7953 14.1665 16.1179 14.0235C16.4023 13.8974 16.6457 13.6942 16.8207 13.437C17.0191 13.1452 17.0899 12.7557 17.2315 11.9769L18.3572 5.78576C18.4062 5.51582 18.4308 5.38084 18.3929 5.27545C18.3596 5.18299 18.2947 5.10526 18.2097 5.05599C18.1128 4.99984 17.9756 4.99984 17.7012 4.99984H4.3335M1.83338 1.6665H2.93039C3.13263 1.6665 3.23375 1.6665 3.31553 1.70344C3.38761 1.736 3.44894 1.78841 3.49234 1.85453C3.54158 1.92955 3.55735 2.02943 3.58889 2.2292L5.9112 16.9371C5.94274 17.1369 5.95852 17.2368 6.00776 17.3118C6.05116 17.3779 6.11249 17.4303 6.18457 17.4629C6.26635 17.4998 6.36747 17.4998 6.56971 17.4998H16" stroke="#FFF6ED" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </button>

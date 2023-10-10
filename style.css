@@ -2,6 +2,9 @@
     margin: 0;
     
 }
+html {
+    scroll-behavior: smooth;
+}
 body{background: #241813; font-family: mainFont;}
 .block1{
     min-height: fit-content;
